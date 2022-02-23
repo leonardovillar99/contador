@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;1,300&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: rgb(59, 193, 255);
+}
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #333;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin-top: 250px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crn-box{
+    width: 720px;
+    height: 300px;
+    background: transparent;
+    border: transparent;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px 0px rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-text{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+.timer-text h1{
+    font-size: 100px;
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+    font-style: italic;
+}
+
+.btn-s{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.btn-s button{
+    width: 120px;
+    height: 40px;
+    border-radius: 12px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.btn-s .iniciar{
+    background: green;
+}
+
+.btn-s .parar{
+    background: red;
+}
+
+.btn-s .reiniciar{
+    background: rgb(197, 197, 45);
+}
